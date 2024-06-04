@@ -1,0 +1,81 @@
+/*styles the background and aligns items to the center of the page*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #93caeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/*styles the box containing the header, input, and button*/
+.container {
+    background: #ffffff52;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+/*styles the input box*/
+input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+/*styles the Add Task Button*/
+button {
+    padding: 10px;
+    background-color: #3868cfbe;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*styles the button when the user hovers over*/
+button:hover {
+    background-color: #265bcebe;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+/*styles the list with the appended tasks*/
+li {
+    padding: 10px;
+    background: #f5f5f5c2;
+    border: 1px solid #4694d479;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*styles the delete button*/
+.delete {
+    background: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background: #c82333;
+}

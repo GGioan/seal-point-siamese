@@ -1,0 +1,14 @@
+features:
+adding tasks
+removing tasks
+marking tasks as complete
+setting due dates
+
+tech stack
+frontend:
+HTML
+JavaScript
+CSS
+
+backend:
+Node.js
